@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.item{
+	text-align: center;
+	width: 300px;
+	margin: 10px;
+	padding-left:30px;
+	
+}
+.item-header{
+	border: solid rgb(182,231,228);
+	border-width: 5px 5px 0 5px;
+	
+}
+.item-body{
+	border: solid rgb(182,231,228);
+	border-width: 5px 5px 0 5px;
+	padding: 10px 0px;
+	
+}
+.item-price{
+	border: solid rgb(182,231,228);
+	border-width: 5px 5px 0 5px;
+	text-align: left;
+	
+}
+.item-like{
+	border: 5px solid rgb(182,231,228);
+	text-align: center;
+	
+}

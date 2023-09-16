@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://localhost:8080/Assignment/layout.jsp -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Mall</title>
+	<style type="text/css"> @charset "utf-8";
+
+.item{
+	text-align: center;
+	width: 260px;
+	margin: 10px;
+	
+}
+.item-header{
+	border: solid rgb(182,231,228);
+	border-width: 5px 5px 0 5px;
+	
+}
+.item-body{
+	border: solid rgb(182,231,228);
+	border-width: 5px 5px 0 5px;
+	padding: 10px 0px;
+	
+}
+.item-price{
+	border: solid rgb(182,231,228);
+	border-width: 5px 5px 0 5px;
+	text-align: left;
+	
+}
+.item-like{
+	border: 5px solid rgb(182,231,228);
+	text-align: right;
+	
+}</style>
+	
+	<!-- jQuery -->
+    <script src="./Online Shopping Mall_files/jquery.min.js.tải xuống"></script>
+	<!-- Bootstrap -->
+
+    <link href="./Online Shopping Mall_files/bootstrap.min.css" rel="stylesheet">
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="./Online Shopping Mall_files/bootstrap-glyphicons.css">
+    <script src="./Online Shopping Mall_files/jquery-3.2.1.slim.min.js.tải xuống" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="./Online Shopping Mall_files/popper.min.js.tải xuống" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="./Online Shopping Mall_files/bootstrap.min.js.tải xuống" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous" gapi_processed="true"></script>
+
+	<!-- Poly -->
+    <link href="./Online Shopping Mall_files/poly.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+        	<div class="shopping-mall">
+	            <h1>Online shopping mall</h1>
+	            <h5>The center point of the professional programming</h5>
+            </div>
+            <img class="pull-right" src="./Online Shopping Mall_files/header-object.png">
+        </header>
+        <nav class="row">
+            <div class="navbar navbar-inverse">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <!--Menu-->
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://localhost:8080/Assignment/layout.jsp" style="color:#A52A2A;"><span class=""></span> ONLINE ENTERTAINMENT</a></li>
+                        <li><a href="http://localhost:8080/Assignment/layout.jsp" style="color:#0000FF;"><span class=""></span>MY FAVORITIES</a></li>
+             
+                        <li class="dropdown">
+                            <a href="http://localhost:8080/Assignment/layout.jsp#" class="dropdown-toggle" data-toggle="dropdown" style="color:#0000FF;"><span></span> MY ACOUNT <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://localhost:8080/Assignment/layout.jsp">Login</a></li>
+                                <li><a href="http://localhost:8080/Assignment/layout.jsp">Forgot Password</a></li>
+                                <li><a href="http://localhost:8080/Assignment/layout.jsp">Resistration</a></li>
+                                <li class="divider"></li>
+                                <li><a href="http://localhost:8080/Assignment/layout.jsp">Logoff</a></li>
+                                <li><a href="http://localhost:8080/Assignment/layout.jsp">Change Password</a></li>
+                                <li><a href="http://localhost:8080/Assignment/layout.jsp">Edit Profile</a></li>
+                 
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <!--Menu-->
+                </div>
+            </div>
+        </nav>
+        <div class="poly-sheet row">
+
+            <article class="col-sm-9">
+                <!--Nội dung trang web-->
+                
+                
+                <!-- <div class="item">
+    
+    <div class="itemName">Tên sản phẩm: </div>
+    <div class="itemImage"><img alt="" src="image/" width="200" height="200"></div>
+    <div class="itemPrice">
+      Giá gốc: <del></del><br>
+      Giá mới:
+     <c:set var="newprice" value="0"/>
+     <fmt:formatNumber value=""/>
+     <br>
+	   Mức giá:
+			<c:choose>
+				<c:when test="false">Giá thấp</c:when>
+				<c:when test="false">Giá cao</c:when>
+				<c:otherwise>Bình thường</c:otherwise>
+			</c:choose>
+		</div>
+      <div class="itemDate">Ngày: 22-03-2023</div>
+    
+    </div> -->
+                <div class="row poly-cart">
+                    <div class="col-sm-4" style="margin:0px; padding:10px; margin-top:20px;">
+                      <div class="item text-center">
+                        <div class="item-header">
+                          
+                        </div>
+                        <div class="item-body">
+                          <img src="./Online Shopping Mall_files/1003.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="item-price">VIDEO TITLE</div>
+                        <div class="item-like">
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-success">LIKE</a>
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-info">SHARE</a>
+                        </div>
+                     </div>
+                      </div>
+     
+               
+                      
+                       <div class="col-sm-4" style="margin:0px; padding:10px; margin-top:20px;">
+                      <div class="item text-center">
+                        <div class="item-header">
+                          
+                        </div>
+                        <div class="item-body">
+                          <img src="./Online Shopping Mall_files/1004.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="item-price">VIDEO TITLE</div>
+                        <div class="item-like">
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-success">LIKE</a>
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-info">SHARE</a>
+                        </div>
+                     </div>
+                      </div>
+          
+                             
+          
+                         
+                        <div class="col-sm-4" style="margin:0px; padding:10px; margin-top:20px;">
+                      <div class="item text-center">
+                        <div class="item-header">
+                          
+                        </div>
+                        <div class="item-body">
+                          <img src="./Online Shopping Mall_files/1006.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="item-price">VIDEO TITLE</div>
+                        <div class="item-like">
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-success">LIKE</a>
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-info">SHARE</a>
+                        </div>
+                     </div>
+                      </div>
+                         
+                       
+                           
+                         <div class="col-sm-4" style="margin:0px; padding:10px; margin-top:20px;">
+                      <div class="item text-center">
+                        <div class="item-header">
+                          
+                        </div>
+                        <div class="item-body">
+                          <img src="./Online Shopping Mall_files/1015.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="item-price">VIDEO TITLE</div>
+                        <div class="item-like">
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-success">LIKE</a>
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-info">SHARE</a>
+                        </div>
+                     </div>
+                      </div>
+          
+            
+                           <div class="col-sm-4" style="margin:0px; padding:10px; margin-top:20px;">
+                      <div class="item text-center">
+                        <div class="item-header">
+                          
+                        </div>
+                        <div class="item-body">
+                          <img src="./Online Shopping Mall_files/1058.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="item-price">VIDEO TITLE</div>
+                        <div class="item-like">
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-success">LIKE</a>
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-info">SHARE</a>
+                        </div>
+                     </div>
+                      </div>
+          
+          
+                       <div class="col-sm-4" style="margin:0px; padding:10px; margin-top:20px;">
+                      <div class="item text-center">
+                        <div class="item-header">
+                          
+                        </div>
+                        <div class="item-body">
+                          <img src="./Online Shopping Mall_files/1061.jpg" alt="" width="100" height="100">
+                        </div>
+                        <div class="item-price">VIDEO TITLE</div>
+                        <div class="item-like">
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-success">LIKE</a>
+                         <a href="http://localhost:8080/Assignment/layout.jsp" class="btn btn-info">SHARE</a>
+                        </div>
+                     </div>
+                      </div>
+                      
+                      
+                       <div class="row text-center">
+                        <div class="col">
+                            <nav aria-label="Page navigation">
+                              <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                  <a class="page-link" href="http://localhost:8080/Assignment/layout.jsp#" aria-label="Previous">
+                                    <span aria-hidden="true">«</span>
+                                    <span class="sr-only">Previous</span>
+                                  </a>
+                                </li>
+                                <li class="page-item active"><a class="page-link" href="http://localhost:8080/Assignment/layout.jsp#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="http://localhost:8080/Assignment/layout.jsp#">2</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="http://localhost:8080/Assignment/layout.jsp#" aria-label="Next">
+                                    <span aria-hidden="true">»</span>
+                                    <span class="sr-only">Next</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>        
+                      
+            </article>
+            
+            
+
+            <aside class="col-sm-3">
+                <!--CartInfo-->
+                <div class="poly-cart">
+	                <div class="panel panel-default">
+	                    <div class="panel-body">
+	                        <img class="col-sm-5" src="./Online Shopping Mall_files/shoppingcart.gif">
+	                        <ul class="col-sm-7">
+	                            <li>100 items</li>
+	                            <li>$ 56.8</li>
+	                            <li><a href="http://localhost:8080/Assignment/layout.jsp">View Cart</a></li>
+	                        </ul>
+	                    </div>
+	                </div>
+                </div>
+                <!--/CartInfo-->
+
+                <!--Search-->
+                <div class="nn-cart">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <form method="post" action="http://localhost:8080/Product/Search">
+                                <input placeholder="Keywords" name="Keywords" class="form-control">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--/Search-->
+
+                <!--Category-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-th-list"></span>
+                        <strong>Chủng loại</strong>
+                    </div>
+
+                    <div class="list-group">
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Điện thoại di động</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Máy tính xách tay</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Máy tính để bàn</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Quạt máy</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Tivi</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Tủ lạnh</a>
+                    </div>
+                </div>
+                <!--/Category-->
+
+                <!--Supplier-->
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-list-alt"></span>
+                        <strong>Nhà cung cấp</strong>
+                    </div>
+
+                    <div class="list-group">
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Apple</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Samsung</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Nokia</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">GL</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Sony Ericson</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Dell</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Acer</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">HP</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Toshiba</a>
+                    </div>
+                </div>
+                <!--/Supplier-->
+
+                <!--Special-->
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="glyphicon glyphicon-star-empty"></span>
+                        <strong>Hàng đặc biệt</strong>
+                    </div>
+
+                    <div class="list-group">
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Hàng bán chạy</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Hàng mới</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Hàng giảm giá</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Hàng đặc biệt</a>
+                        <a href="http://localhost:8080/Assignment/layout.jsp#" class="list-group-item">Hàng xem nhiều</a>
+                    </div>
+                </div>
+                <!--/Special-->
+
+            </aside>
+        </div>
+
+        <footer class="panel panel-default row">
+            <div class="panel-heading text-center">
+                <p>FPT Polytechnic © 2017. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+<style>.tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}</style></body></html>
